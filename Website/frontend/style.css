@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    margin-top: 10px;
+    background: rgb(255, 255, 255);
+  box-shadow: -1px 10px 10px black;;
+    padding-top: 10px;
+    height: 80px;
+}
+
+.form-select{
+    width: 1vw;
+}
+.provider{
+    position: relative;
+    right: 8px;
+}
+
+/* body{
+    font-family: arial;
+    font-size: 16px;
+    margin: 0;
+    background: lin;
+} */
+.search_select_box{
+    max-width: 400px;
+    margin: 80px auto;
+}
+.search_select_box select{
+    width: 100%;
+}
+
+@media screen and (max-width: 375px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
